@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { getWeather } from '../api/weatherData'
-import '../App.css'
+// import '../App.css'
+import '../style/style.css'
 
 const Root = () => {
     const [query, setQuery] = useState('')
@@ -34,8 +35,8 @@ const Root = () => {
                         <sup>&deg; C</sup>
                     </div>
                     <div className="info">
-                        <img className='city-icon' src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} 
-                        alt={weather.weather[0].description}/>
+                        <img className='city-icon' src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
+                            alt={weather.weather[0].description} />
                         <p>{weather.weather[0].description}</p>
                     </div>
                 </div>
