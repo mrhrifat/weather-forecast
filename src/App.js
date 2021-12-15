@@ -1,7 +1,8 @@
-function App() {
+import Root from "./components/Root";
+const App = () => {
   return (
     <div>
-      <h4>Bismillahir Rahanir Rahim</h4>
+      <Root />
     </div>
   );
 }
