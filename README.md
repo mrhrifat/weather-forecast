@@ -6,7 +6,9 @@ Progressive Web Apps are apps that are designed to work offline. They can easily
 
 ## Features
 - Weather Information of Searched City
+- **Go to Online** information when offline
 - PWA's App
 - Available on PWA store
+- Installable from Browser
 
 
